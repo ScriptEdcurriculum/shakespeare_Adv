@@ -2,9 +2,14 @@
 
 ![Yo Mama!](https://pbs.twimg.com/profile_images/406303048/yomamalogo-1.jpg)
 
-##Scope
-To capitalize on the viral fury of the underground 'Yo Momma' battle scene, you have been tasked with designing and creating a webapp to help users find the best 'Yo Momma' joke to help them to become victorious.
+##Do Now 
+Begin this session by completing the [Do Now](doNow.md) activity.
 
+##Scope
+To capitalize on the viral fury of the underground 'Yo Momma' battle scene, you have been tasked by Cheesy Jokes Inc. with designing and creating a webapp to help users find the best 'Yo Momma' joke to help them to become victorious.
+
+
+##Project Criteria
 Your Manager has laid out the following requirements for the project:
 
 * Implement a mock API to retreive the jokes
@@ -22,14 +27,21 @@ By the end of this project the employee will be able to...
 * Ability to explain and discuss projects in terms of APIs and HTTP requests (Technical Vocabulary)
 
 ##References/Tools
+* [Get/Post Request] (http://www.w3schools.com/tags/ref_httpmethods.asp)
+* [Web Speech API Documentation] (https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html)
+* [Web Speech Overview] (http://stiltsoft.com/blog/2013/05/google-chrome-how-to-use-the-web-speech-api/)
 
-* Get/Post Request: http://www.w3schools.com/tags/ref_httpmethods.asp
-* API: http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm
-* Web Speech API Documentation: https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html
-* Web Speech Overview: http://stiltsoft.com/blog/2013/05/google-chrome-how-to-use-the-web-speech-api/
+##Vocabulary
+* Application Program Interface (API)
+* GET Requests
+* POST Requests
+* AJAX Requests
+* Client
+* Server
+* Endpoint
 
 ##Instructions
-You are given a stripped-down project to add the required functionality, which must be cloned into your own workspace.  And make sure to read the comments!
+You are given a stripped-down project (starter code) to add the required functionality, which must be cloned into your own workspace.  And make sure to read the comments!
 
 ###1) API Creation
 
@@ -146,30 +158,24 @@ assistance from the web) to voice out the text.
 9. In speak.js, use the text to voice javascript API to speak a string of text.
 10. Back in main.js, use the function you just wrote to speak the joke as it's displayed.
 
-###4) Next Steps
-From here you can extend the project however you like!  Feel free to come up with your own ideas, or implement some of the ideas below:
+##Bonus Criteria 
+Your Manager has offered a stipend of $500 for each of the bonus requirements listed below: 
 
-####Potential Ideas
-1. Add more Yo Mama jokes
+1. Make the same project but with motivational statements instead of Yo Mama jokes.
 2. Figure out a way so you don't reuse any of the jokes until the user has gone through them all (but keep their order random!).
-3. Make the same project but with motivational statements instead of Yo Mama jokes
-4. Make a magic 8-ball project that returns a different answer each time.  If you're using a mobile device, you could have it give a different answer each time you shake or add an 8-ball animation each time it gives a new answer.
-5. Makes a test taker project that randomly returns A, B, C, or D for helping you fill in scantron tests.
+4.  Make a magic 8-ball project that returns a different answer each time.  If you're using a mobile device, you could have it give a different answer each time you shake or add an 8-ball animation each time it gives a new answer.
 
-##Vocabulary
-
-* Application Program Interface (API) - A set of interfaces to interact another web-based resource.
-* GET Requests - A request to retreive data from another resource
-* POST Requests - A request to submit data to another resoure for processing
-* AJAX Requests - A technique to provide interactivity between the client and server without reloading the page
-* Client - The program that requests another service to perform an action
-* Server - The program that performs the action requested by the client's request
-* Endpoint - The URL where your service can be accessed by a client application reloading the page
+##Grading Criteria
+Your manager will be grading your capibility on this project based on [this rubric](assessment.md)
 
 ##How to Submit
-
 This project must be pushed back up to your repo on GitHub. Then you will share your link with the instructor
 
-##Homework
+To push to GitHub run the following commands in your terminal:  
+`git status`  
+`git add .`  
+`git commit -m "example comment"`  
+`git push origin master`
 
+##Homework
 Instructor will assign homework based on progress in class.
