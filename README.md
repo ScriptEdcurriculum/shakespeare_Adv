@@ -12,9 +12,9 @@ To capitalize on the viral fury of the underground 'Shakespearean Insult' battle
 ##Project Criteria
 Your Manager has laid out the following requirements for the project:
 
-* Implement a mock API to retreive the jokes
-* Allow users to interact with the application to get a new joke
-* Implement the ability to convert the joke to a voice text
+* Implement a mock API to retreive the insults
+* Allow users to interact with the application to get a new insult
+* Implement the ability to convert the insult to a voice text
 
 ##Learning Objectives
 By the end of this project the employee will be able to...
@@ -51,14 +51,14 @@ As a developer, you will rely on components created by other people or other tea
 
 ####What am I going to do:
 
-In this step, you will step into the role of an architect and create an API used by your website to retreive jokes from the service.  The API will need to specify the inputs and the output, as well as mocking the expecting output (pretending to be the server and returning an output).
+In this step, you will step into the role of an architect and create an API used by your website to retreive insults from the service.  The API will need to specify the inputs and the output, as well as mocking the expecting output (pretending to be the server and returning an output).
 
 ####Creating Mock Endpoint
 1. Go to [mockable.io](https://www.mockable.io/)
 2. Click "Try Now"
 3. Select "DEFINE A NEW REST API"
 4. Creating an endpoint
-  1. Set Path - Set the path you want to hit to get the list of Shakespearean insults.  This shouldn't have any spaces and should describe the data the user is fetching.  Something like "insults" or "shakespeare" would make sense.
+  1. Set Path - Set the path you want to hit to get the list of Shakespearean insults.  This shouldn't have any spaces and should describe the data the user is fetching.  Something like "insults", "jokes", or "shakespeare" would make sense.
   2. Set Verb - The verb is just the type of HTTP request we want to make.  We'll be using the GET verb because we're just fetching data from the backend.  If we wanted to store data in the backend we'd probably use the POST verb.
   3. Set Response Body - This is what the backend will return to us when we make a request to this endpoint.  Try pasting in the following JSON (JavaScript Object Notation):
 
@@ -123,7 +123,7 @@ reload provides a better, more seamless experience for users.
 
 ####What am I going to do:
 
-You will implement the ability to show a new joke to the user without the need of reloading the
+You will implement the ability to show a new insult to the user without the need of reloading the
 
 entire page
 
