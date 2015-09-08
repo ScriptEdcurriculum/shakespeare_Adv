@@ -1,4 +1,4 @@
-# Shakespearean Insult Generator
+#Project 8 - Shakespearean Insult Generator
 
 ![Baller Shakespeare](https://pbs.twimg.com/profile_images/585897673544376320/-5fUjpSL.jpg)
 
